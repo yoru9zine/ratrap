@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D163AB721C4E0A7D0083F8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163AB711C4E0A7D0083F8B7 /* AppDelegate.swift */; };
+		D163AB741C4E0A7D0083F8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D163AB731C4E0A7D0083F8B7 /* Assets.xcassets */; };
+		D163AB771C4E0A7D0083F8B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D163AB751C4E0A7D0083F8B7 /* MainMenu.xib */; };
+		D163AB821C4E0A7D0083F8B7 /* ratrapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163AB811C4E0A7D0083F8B7 /* ratrapTests.swift */; };
+		D163AB8D1C4E0A7D0083F8B7 /* ratrapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163AB8C1C4E0A7D0083F8B7 /* ratrapUITests.swift */; };
+		D163AB9B1C4E225E0083F8B7 /* ratrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163AB9A1C4E225E0083F8B7 /* ratrap.swift */; };
+		D16D77B61C4F535A00BDA50B /* keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D77B51C4F535A00BDA50B /* keys.swift */; };
+		D16D77B81C4F6CD300BDA50B /* action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D77B71C4F6CD300BDA50B /* action.swift */; };
+		D16D77BA1C50525300BDA50B /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D77B91C50525300BDA50B /* config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D163AB7E1C4E0A7D0083F8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D163AB661C4E0A7D0083F8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D163AB6D1C4E0A7D0083F8B7;
+			remoteInfo = ratrap;
+		};
+		D163AB891C4E0A7D0083F8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D163AB661C4E0A7D0083F8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D163AB6D1C4E0A7D0083F8B7;
+			remoteInfo = ratrap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D163AB6E1C4E0A7D0083F8B7 /* ratrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ratrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D163AB711C4E0A7D0083F8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D163AB731C4E0A7D0083F8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D163AB761C4E0A7D0083F8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D163AB781C4E0A7D0083F8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D163AB7D1C4E0A7D0083F8B7 /* ratrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ratrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D163AB811C4E0A7D0083F8B7 /* ratrapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratrapTests.swift; sourceTree = "<group>"; };
+		D163AB831C4E0A7D0083F8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D163AB881C4E0A7D0083F8B7 /* ratrapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ratrapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D163AB8C1C4E0A7D0083F8B7 /* ratrapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratrapUITests.swift; sourceTree = "<group>"; };
+		D163AB8E1C4E0A7D0083F8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D163AB9A1C4E225E0083F8B7 /* ratrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ratrap.swift; sourceTree = "<group>"; };
+		D16D77B51C4F535A00BDA50B /* keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = keys.swift; sourceTree = "<group>"; };
+		D16D77B71C4F6CD300BDA50B /* action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = action.swift; sourceTree = "<group>"; };
+		D16D77B91C50525300BDA50B /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D163AB6B1C4E0A7D0083F8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163AB7A1C4E0A7D0083F8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163AB851C4E0A7D0083F8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D163AB651C4E0A7D0083F8B7 = {
+			isa = PBXGroup;
+			children = (
+				D163AB701C4E0A7D0083F8B7 /* ratrap */,
+				D163AB801C4E0A7D0083F8B7 /* ratrapTests */,
+				D163AB8B1C4E0A7D0083F8B7 /* ratrapUITests */,
+				D163AB6F1C4E0A7D0083F8B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D163AB6F1C4E0A7D0083F8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D163AB6E1C4E0A7D0083F8B7 /* ratrap.app */,
+				D163AB7D1C4E0A7D0083F8B7 /* ratrapTests.xctest */,
+				D163AB881C4E0A7D0083F8B7 /* ratrapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D163AB701C4E0A7D0083F8B7 /* ratrap */ = {
+			isa = PBXGroup;
+			children = (
+				D163AB711C4E0A7D0083F8B7 /* AppDelegate.swift */,
+				D163AB731C4E0A7D0083F8B7 /* Assets.xcassets */,
+				D163AB751C4E0A7D0083F8B7 /* MainMenu.xib */,
+				D163AB781C4E0A7D0083F8B7 /* Info.plist */,
+				D163AB9A1C4E225E0083F8B7 /* ratrap.swift */,
+				D16D77B51C4F535A00BDA50B /* keys.swift */,
+				D16D77B71C4F6CD300BDA50B /* action.swift */,
+				D16D77B91C50525300BDA50B /* config.swift */,
+			);
+			path = ratrap;
+			sourceTree = "<group>";
+		};
+		D163AB801C4E0A7D0083F8B7 /* ratrapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D163AB811C4E0A7D0083F8B7 /* ratrapTests.swift */,
+				D163AB831C4E0A7D0083F8B7 /* Info.plist */,
+			);
+			path = ratrapTests;
+			sourceTree = "<group>";
+		};
+		D163AB8B1C4E0A7D0083F8B7 /* ratrapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D163AB8C1C4E0A7D0083F8B7 /* ratrapUITests.swift */,
+				D163AB8E1C4E0A7D0083F8B7 /* Info.plist */,
+			);
+			path = ratrapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D163AB6D1C4E0A7D0083F8B7 /* ratrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D163AB911C4E0A7D0083F8B7 /* Build configuration list for PBXNativeTarget "ratrap" */;
+			buildPhases = (
+				D163AB6A1C4E0A7D0083F8B7 /* Sources */,
+				D163AB6B1C4E0A7D0083F8B7 /* Frameworks */,
+				D163AB6C1C4E0A7D0083F8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ratrap;
+			productName = ratrap;
+			productReference = D163AB6E1C4E0A7D0083F8B7 /* ratrap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D163AB7C1C4E0A7D0083F8B7 /* ratrapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D163AB941C4E0A7D0083F8B7 /* Build configuration list for PBXNativeTarget "ratrapTests" */;
+			buildPhases = (
+				D163AB791C4E0A7D0083F8B7 /* Sources */,
+				D163AB7A1C4E0A7D0083F8B7 /* Frameworks */,
+				D163AB7B1C4E0A7D0083F8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D163AB7F1C4E0A7D0083F8B7 /* PBXTargetDependency */,
+			);
+			name = ratrapTests;
+			productName = ratrapTests;
+			productReference = D163AB7D1C4E0A7D0083F8B7 /* ratrapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D163AB871C4E0A7D0083F8B7 /* ratrapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D163AB971C4E0A7D0083F8B7 /* Build configuration list for PBXNativeTarget "ratrapUITests" */;
+			buildPhases = (
+				D163AB841C4E0A7D0083F8B7 /* Sources */,
+				D163AB851C4E0A7D0083F8B7 /* Frameworks */,
+				D163AB861C4E0A7D0083F8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D163AB8A1C4E0A7D0083F8B7 /* PBXTargetDependency */,
+			);
+			name = ratrapUITests;
+			productName = ratrapUITests;
+			productReference = D163AB881C4E0A7D0083F8B7 /* ratrapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D163AB661C4E0A7D0083F8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yoru9zine;
+				TargetAttributes = {
+					D163AB6D1C4E0A7D0083F8B7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D163AB7C1C4E0A7D0083F8B7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D163AB6D1C4E0A7D0083F8B7;
+					};
+					D163AB871C4E0A7D0083F8B7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D163AB6D1C4E0A7D0083F8B7;
+					};
+				};
+			};
+			buildConfigurationList = D163AB691C4E0A7D0083F8B7 /* Build configuration list for PBXProject "ratrap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D163AB651C4E0A7D0083F8B7;
+			productRefGroup = D163AB6F1C4E0A7D0083F8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D163AB6D1C4E0A7D0083F8B7 /* ratrap */,
+				D163AB7C1C4E0A7D0083F8B7 /* ratrapTests */,
+				D163AB871C4E0A7D0083F8B7 /* ratrapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D163AB6C1C4E0A7D0083F8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D163AB741C4E0A7D0083F8B7 /* Assets.xcassets in Resources */,
+				D163AB771C4E0A7D0083F8B7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163AB7B1C4E0A7D0083F8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163AB861C4E0A7D0083F8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D163AB6A1C4E0A7D0083F8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16D77B61C4F535A00BDA50B /* keys.swift in Sources */,
+				D16D77B81C4F6CD300BDA50B /* action.swift in Sources */,
+				D163AB721C4E0A7D0083F8B7 /* AppDelegate.swift in Sources */,
+				D16D77BA1C50525300BDA50B /* config.swift in Sources */,
+				D163AB9B1C4E225E0083F8B7 /* ratrap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163AB791C4E0A7D0083F8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D163AB821C4E0A7D0083F8B7 /* ratrapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163AB841C4E0A7D0083F8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D163AB8D1C4E0A7D0083F8B7 /* ratrapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D163AB7F1C4E0A7D0083F8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D163AB6D1C4E0A7D0083F8B7 /* ratrap */;
+			targetProxy = D163AB7E1C4E0A7D0083F8B7 /* PBXContainerItemProxy */;
+		};
+		D163AB8A1C4E0A7D0083F8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D163AB6D1C4E0A7D0083F8B7 /* ratrap */;
+			targetProxy = D163AB891C4E0A7D0083F8B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D163AB751C4E0A7D0083F8B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D163AB761C4E0A7D0083F8B7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D163AB8F1C4E0A7D0083F8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D163AB901C4E0A7D0083F8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D163AB921C4E0A7D0083F8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ratrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.ratrap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D163AB931C4E0A7D0083F8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ratrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.ratrap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D163AB951C4E0A7D0083F8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ratrapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.ratrapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ratrap.app/Contents/MacOS/ratrap";
+			};
+			name = Debug;
+		};
+		D163AB961C4E0A7D0083F8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ratrapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.ratrapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ratrap.app/Contents/MacOS/ratrap";
+			};
+			name = Release;
+		};
+		D163AB981C4E0A7D0083F8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ratrapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.ratrapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ratrap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D163AB991C4E0A7D0083F8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ratrapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.ratrapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ratrap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D163AB691C4E0A7D0083F8B7 /* Build configuration list for PBXProject "ratrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D163AB8F1C4E0A7D0083F8B7 /* Debug */,
+				D163AB901C4E0A7D0083F8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D163AB911C4E0A7D0083F8B7 /* Build configuration list for PBXNativeTarget "ratrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D163AB921C4E0A7D0083F8B7 /* Debug */,
+				D163AB931C4E0A7D0083F8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D163AB941C4E0A7D0083F8B7 /* Build configuration list for PBXNativeTarget "ratrapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D163AB951C4E0A7D0083F8B7 /* Debug */,
+				D163AB961C4E0A7D0083F8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D163AB971C4E0A7D0083F8B7 /* Build configuration list for PBXNativeTarget "ratrapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D163AB981C4E0A7D0083F8B7 /* Debug */,
+				D163AB991C4E0A7D0083F8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D163AB661C4E0A7D0083F8B7 /* Project object */;
+}
